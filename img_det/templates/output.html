@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Output</title>
+</head>
+<body>
+    <img src="{{ output_image }}" alt="Image/Video" height="50%" width="50%"></img>
+    <div>
+	<table>
+	<tr>
+		<th>Objects</th>
+		<th>Count</th>
+	</tr>
+	<tr>
+	{% for object, count in objects.items() %}	
+    <td>{{ object }}</td>
+    <td>{{ count }}</td>
+	</tr>
+    {% endfor %}
+	</table>
+	
+	</div>
+</body>
+</html>
