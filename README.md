@@ -1,4 +1,4 @@
-# image-detection
+# Object-detection
 detect objects on the uploaded image or video
 
 -this is a flask project where Rest api is used to upload an image or a video and apply object detection using yolov3 on image and yolov3-lite on videos and then teh output is shown.
